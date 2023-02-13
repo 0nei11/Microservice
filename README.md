@@ -60,7 +60,7 @@ Example Input:
   
   .6 mile(s) is equal to 1 kilometer(s)
   
-  
+
 3. RAW_INTRO alone on the first line indiates the intro with an intro with version number is being requested. THe second line of the txt file should say the
 version number.
 
