@@ -6,6 +6,7 @@ is it's turn to do an action.
 
 
 3 use cases:
+
 1.Basic text request with no customized input: (enter any of these keys and get the corresponding response).
 
 txt = {
