@@ -42,14 +42,22 @@ txt = {
 fourth line is new unit, and fifth line is new value.
 
 Example Input:
+
   RAW
+  
   mile
+  
   .6
+  
   kilometer
+  
   1
   
+  
  Example Output:
+ 
   COOKED
+  
   .6 mile(s) is equal to 1 kilometer(s)
   
   
@@ -57,13 +65,21 @@ Example Input:
 version number.
 
 Example Input:
+
   RAW_INTRO
+  
   1
   
+  
 Example Output:
+
   COOKED
+  
   Welcome to the conversion machine!
+  
   Version 1
+  
   By - Jonathan Fernandez
+  
  
   
