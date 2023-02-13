@@ -7,6 +7,7 @@ is it's turn to do an action.
 
 3 use cases:
 1.Basic text request with no customized input: (enter any of these keys and get the corresponding response).
+
 txt = {
     "RAW_MENU_INTRO": "COOKED\nTo go to the desired location, input the number associated with it.\n\n"
                       "1. Choose Conversion\n2. Random Conversion\n3. Exit",
@@ -33,6 +34,7 @@ txt = {
     "RAW_CF": "COOKED\nCelsius to Fahrenheit:\nGiven C = the Celsius value we want to convert,\n"
               "The formula is: C * (9/5) + 32"
 }
+
 
 2.RAW alone on the first line indicates a conversion was done and should be displayed. The second line is the original nit, third line is original value,
 fourth line is new unit, and fifth line is new value.
