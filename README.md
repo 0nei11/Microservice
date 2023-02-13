@@ -1,5 +1,8 @@
 # Microservice
-This microservice reads information from the file "pipeline.txt". The original program should alter the "pipeline.txt" file to one of the key words below on the first line when seeking certain text, cases involving more inputs are described below. The microservice writes COOKED on the first line to make sure each program knows what information is meant for who, and the actual program will write RAW at the start of the first line to let the microservice know it is it's turn to do an action.
+This microservice reads information from the file "pipeline.txt". The original program should alter the "pipeline.txt" file to one of the key words below
+on the first line when seeking certain text, cases involving more inputs are described below. The microservice writes COOKED on the first line to make sure
+each program knows what information is meant for who, and the actual program will write RAW at the start of the first line to let the microservice know it
+is it's turn to do an action.
 
 
 3 use cases:
@@ -23,7 +26,9 @@ txt = {
     "RAW_CF": "COOKED\nCelsius to Fahrenheit:\nGiven C = the Celsius value we want to convert,\n"
               "The formula is: C * (9/5) + 32"
 }
-2.RAW alone on the first line indicates a conversion was done and should be displayed. The second line is the original nit, third line is original value, fourth line is new unit, and fifth line is new value.
+
+2.RAW alone on the first line indicates a conversion was done and should be displayed. The second line is the original nit, third line is original value,
+fourth line is new unit, and fifth line is new value.
 Example Input:
   RAW
   mile
@@ -34,7 +39,8 @@ Example Input:
   COOKED
   .6 mile(s) is equal to 1 kilometer(s)
   
-3. RAW_INTRO alone on the first line indiates the intro with an intro with version number is being requested. THe second line of the txt file should say the version number.
+3. RAW_INTRO alone on the first line indiates the intro with an intro with version number is being requested. THe second line of the txt file should say the
+version number.
 Example Input:
   RAW_INTRO
   1
