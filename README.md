@@ -9,6 +9,7 @@ is it's turn to do an action.
 1.Basic text request with no customized input: (enter any of these keys and get the corresponding response).
 
 txt = {
+    
     "RAW_MENU_INTRO": "COOKED\nTo go to the desired location, input the number associated with it.\n\n"
                       "1. Choose Conversion\n2. Random Conversion\n3. Exit",
                       
