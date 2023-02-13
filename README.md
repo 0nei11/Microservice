@@ -40,21 +40,26 @@ txt = {
 
 2.RAW alone on the first line indicates a conversion was done and should be displayed. The second line is the original nit, third line is original value,
 fourth line is new unit, and fifth line is new value.
+
 Example Input:
   RAW
   mile
   .6
   kilometer
   1
+  
  Example Output:
   COOKED
   .6 mile(s) is equal to 1 kilometer(s)
   
+  
 3. RAW_INTRO alone on the first line indiates the intro with an intro with version number is being requested. THe second line of the txt file should say the
 version number.
+
 Example Input:
   RAW_INTRO
   1
+  
 Example Output:
   COOKED
   Welcome to the conversion machine!
